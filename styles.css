@@ -1,0 +1,45 @@
+body {
+  position: relative;
+  background-color: lightgray;
+}
+
+.top-container {
+  width: 650px;
+}
+
+.scoreboard {
+  float: left;
+  background-color: lightgray;
+}
+
+.instructions {
+  float: right;
+}
+
+.board {
+  width: 650px;
+  background-color: lightgray;
+  cursor: none;
+}
+
+.svg-canvas {
+  border: 1px solid black;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.crosshairs {
+  fill: yellow;
+}
+
+.player {
+  fill: white;
+}
+
+.enemy {
+  fill: green;
+}
+
+.bullet {
+  fill: white;
+}
